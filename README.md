@@ -74,6 +74,10 @@ Third column --> "param" (character format)
 
 Fourth column --> "values" (numeric format)
 
+## Funding
+
+This work was supported by the Centre National de la Recherche Scientifique (CNRS) in the frame of the MSFD convention (Pelagic Habitats) with the French Ministry for an Ecological and Solidarity Transition (MTES). 
+
 ## Authors
 
 Guillaume Wacquet, Anaïs Aubert, Alexandre Budria, Marie Duflos, Benoit Mialet, Isabelle Rombouts, Luis Felipe Artigas
