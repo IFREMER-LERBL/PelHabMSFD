@@ -23,7 +23,8 @@ To launch the Graphical User Interface of EcoTransLearn, run these command lines
 
 *D1_MSFD()*
 
-![image](https://github.com/IFREMER-LERBL/D1_MSFD/assets/104447521/85458cf1-d34c-4ec0-ac76-c435d9f5f6b5)
+![image](https://github.com/IFREMER-LERBL/PelHabMSFD/assets/104447521/579ab62e-637d-4414-9287-ab7e06ae7da4)
+
 
 ## Data format
 
