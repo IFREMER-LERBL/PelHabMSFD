@@ -30,34 +30,49 @@ To launch the Graphical User Interface of EcoTransLearn, run these command lines
 
 Data format for PH2 and PH3 indices computation (D1 MSFD: Pelagic Habitat).
 
-PH1:	Not developed
+### PH1: Not developed
 
-PH2:	CSV file (separator ';' and decimal ',')
-	Filename must contain 'PHYTO' or 'ZOO'
-	First column --> "station" (character format) without `'`
-	Second column --> "date" (yyyy-mm-dd format)
-	Third column --> "values" (numeric format)
-Data cleaning:	Remove years with less than 9 months
-		Remove years before year missing
-		"values"=NA if the begininng month is not "O1"
+### PH2: CSV file (separator ';' and decimal ',')
+	
+Filename must contain 'PHYTO' or 'ZOO'
 
-PH3:	CSV file (separator ';' and decimal ',')
-	First column --> "station" (character format)
-	Second column --> "day" (numeric format)
-	Third column --> "month" (numeric format)
-	Fourth column --> "year" (numeric format)
-	Fifth column --> "longitude" (numeric format)
-	Sixth column --> "latitude" (numeric format)
-	Seventh column --> "taxon" (character format)
-	Eighth column --> "abundance" (numeric format)
-Data cleaning:	Remove years with less than 6 months
-		Remove stations with less than 5 years
+First column --> "station" (character format) without `'`
+	
+Second column --> "date" (yyyy-mm-dd format)
+	
+Third column --> "values" (numeric format)
 
-Physico-Chemical:	CSV file (separator ';' and decimal ',')
-			First column --> "station" (character format) without `'`
-			Second column --> "date" (yyyy-mm-dd format)
-			Third column --> "param" (character format)
-			Fourth column --> "values" (numeric format)
+Data cleaning: remove years with less than 9 months, remove years before year missing, "values"=NA if the begininng month is not "O1"
+
+### PH3: CSV file (separator ';' and decimal ',')
+	
+First column --> "station" (character format)
+
+Second column --> "day" (numeric format)
+
+Third column --> "month" (numeric format)
+
+Fourth column --> "year" (numeric format)
+
+Fifth column --> "longitude" (numeric format)
+
+Sixth column --> "latitude" (numeric format)
+
+Seventh column --> "taxon" (character format)
+
+Eighth column --> "abundance" (numeric format)
+
+Data cleaning: remove years with less than 6 months, remove stations with less than 5 years
+
+### Physico-Chemical: CSV file (separator ';' and decimal ',')
+			
+First column --> "station" (character format) without `'`
+
+Second column --> "date" (yyyy-mm-dd format)
+
+Third column --> "param" (character format)
+
+Fourth column --> "values" (numeric format)
 
 ## Authors
 
