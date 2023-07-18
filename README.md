@@ -1,5 +1,5 @@
 # PelHabMSFD
-GUI for computation of PH2 and PH3 indicators in the frame of MSFD, Descriptor 1: "Pelagic Habitat" 
+GUI for computation of PH2 and PH3 indicators in the frame of MSFD, Descriptor 1: "Pelagic Habitats" 
 
 ## Installation
 
@@ -28,7 +28,7 @@ To launch the Graphical User Interface of EcoTransLearn, run these command lines
 
 ## Data format
 
-Data format for PH2 and PH3 indices computation (D1 MSFD: Pelagic Habitat).
+Data format for PH2 and PH3 indices computation (D1 MSFD: Pelagic Habitats).
 
 ### PH1: Not developed
 
